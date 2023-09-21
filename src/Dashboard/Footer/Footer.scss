@@ -1,0 +1,24 @@
+@import '../../Sass/variable';
+
+@media (max-width: 425px) {
+    .text-grey {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:770px) {
+    .footer-1 {
+display: none;
+    }
+}
+
+@media (min-width:769px) {
+    .footer-2 {
+display: none;
+    }
+}
+
+.text-grey {
+    color: $grey-text;
+    text-decoration: underline;
+}

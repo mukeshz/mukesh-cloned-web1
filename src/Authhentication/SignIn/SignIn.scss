@@ -1,0 +1,117 @@
+@import '../../Sass/variable';
+
+@media (min-width: 300px) {
+    .signIn-outer-box {
+        height: 100vh;
+        width: 100%;
+      }
+    
+      .footer-box {
+        background: rgb(0, 0, 0);
+        border-top: 1px solid $grey-text;
+        height: 35vh;
+        width: 100%;
+      }
+
+      .signIn-inner-box {        
+        background-color: rgb(0, 0, 0, 0.8) ;
+      }
+
+      .signIn-input {
+        width: 100%;
+      }
+
+      .btn-sign-In {
+        width: 100%;
+        margin-top: 40px;
+      }
+
+      .checkbox {
+        p {
+          display: flex;
+          align-items: center;
+      
+          input[type="checkbox"] {
+            margin-right: 4px; 
+            padding: 10px;
+            background-color: $grey-text;
+          }
+        }
+      }
+      
+.cover {
+    background: rgb(0, 0, 0);
+    height: 135vh;
+    width: 100%;
+  }
+  .signIn {
+    background-image: url(../../Assets/SignIn/bg-img.jpg);
+    height: 135vh;
+    width: 100%;
+  }
+  .text-gray-footer-1 {
+    font-size: 13px;
+    color: $grey-text;
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .text-gray-footer-2 {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) {
+  .signIn-outer-box {
+    height: 120vh;
+    width: 100%;
+  }
+
+  .footer-box {
+    background: rgb(0, 0, 0, 0.8);
+    border-top: none;
+    height: 35vh;
+    width: 100%;
+  }
+
+  .cover {
+    background: rgb(0, 0, 0, 0.6);
+    height: 155vh;
+    width: 100%;
+  }
+  .signIn {
+    background-image: url(../../Assets/SignIn/bg-img.jpg);
+    height: 155vh;
+    width: 100%;
+  }
+
+  .signIn-inner-box {        
+    width: 450px;
+  }
+
+  .text-gray-footer-1 {
+    display: none;
+  }
+
+  .text-gray-footer-2 {
+    font-size: 14px;
+    color: $grey-text;
+    p {
+      margin-top: 7px;
+      margin-bottom: 7px;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .box-hieght-bottom {
+    margin-bottom: 30px;
+  }
+}
+
+
+
