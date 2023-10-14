@@ -128,7 +128,7 @@ function LandingPage() {
                   />
                 </div>
                 <div className="d-flex justify-content-center align-items-center mt-3">
-                  <button className="btn mx-2 btn-signUp">
+                  <button className="btn mx-2 btn-signUp" onClick={() => navigate('/signIn')}>
                     <h5>
                       Get Started<span> &gt; </span>{" "}
                     </h5>
@@ -392,7 +392,7 @@ function LandingPage() {
                   />
                 </div>
                 <div className="d-flex justify-content-center align-items-center mt-3">
-                  <button className="btn mx-2 btn-signUp">
+                  <button className="btn mx-2 btn-signUp" onClick={() => navigate('/signIn')}>
                     <h5>
                       Get Started<span> &gt; </span>{" "}
                     </h5>

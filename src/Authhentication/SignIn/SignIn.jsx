@@ -3,8 +3,11 @@ import "./SignIn.scss";
 import logo from "../../Assets/LandingPage/logo.png";
 import { styled } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
+import { useNavigate } from "react-router-dom";
 
 function SignIn() {
+  const navigate = useNavigate();
+  
   const RedditTextField = styled((props) => (
     <TextField InputProps={{ disableUnderline: true }} {...props} />
   ))(({ theme }) => ({
@@ -57,6 +60,7 @@ function SignIn() {
                 <button
                   className="btn btn-sign-In py-2"
                   style={{ fontSize: 19 }}
+                  onClick={() => navigate('/')}
                 >
                   Sign In
                 </button>
